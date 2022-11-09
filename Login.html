@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark " >
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="index.html">BENTRIZ-CARS</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active text-danger" aria-current="page" href="index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="autos.html">AUTOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="motos.html">MOTOS</a>
+              </li>
+              
+            </ul>
+            <div style="margin-right: 0.2%;">
+              <button type="button" class="btn btn-danger btn-sm" > <a href="Login.html" style="text-decoration: none; color:white;"> INICIAR SESSION</a></button>
+              <button type="button" class="btn btn-secondary btn-sm" > <a href="registrarse.html" style="text-decoration: none;color:white;">REGISTRARSE</a> </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <section class="vh-100" style="background-color: rgb(53, 52, 52) " >
+        <div class="container py-2 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+              <div class="card shadow-2-strong" style="border-radius: 1rem;">
+                <div class="card-body p-3 text-center">
+      
+                  <h3 class="mb-5">Iniciar Session</h3>
+      
+                  <div class="form-outline mb-4">
+                    <input type="email" id="typeEmailX-2" class="form-control form-control-lg" />
+                    <label class="form-label" for="typeEmailX-2">Correo Electronico</label>
+                  </div>
+      
+                  <div class="form-outline mb-4">
+                    <input type="password" id="typePasswordX-2" class="form-control form-control-lg" />
+                    <label class="form-label" for="typePasswordX-2">Contraseña</label>
+                  </div>
+      
+                  <!-- Checkbox -->
+                  <div class="form-check d-flex justify-content-start mb-4">
+                    <input class="form-check-input" type="checkbox" value="" id="form1Example3"  />
+                    <label class="form-check-label" for="form1Example3" style="margin-left: 3% ;"> Recordar Contraseña </label>
+                  </div>
+      
+                  <button class="btn btn-danger btn-lg btn-block" type="submit">INGRESAR</button>
+      
+                  <hr class="my-4">
+                  
+                  <button class="btn btn-lg btn-block btn-danger" style="background-color: #dd4b39;"
+                    type="submit"><i class="fab fa-google me-2"></i> INGRESAR CON GOOGLE</button>
+                  <button class="btn btn-lg btn-block btn-primary mb-2" style="background-color: #3b5998;margin-top: 2%;"
+                    type="submit"><i class="fab fa-facebook-f me-2"></i>INGRESAR CON FACEBOOK</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+</body>
+</html>
